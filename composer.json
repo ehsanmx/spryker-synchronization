@@ -1,0 +1,10 @@
+{
+  "name": "ehsanmx/spryker-synchronization",
+  "description": "Project",
+  "license": "MIT",
+  "type": "propel-behavior",
+  "extra": {
+    "name": "synchronization",
+    "class": "\\Spryker\\Zed\\Synchronization\\Persistence\\Propel\\Behavior\\SynchronizationBehavior"
+  }
+}
