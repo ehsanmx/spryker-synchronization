@@ -5,6 +5,6 @@
   "type": "propel-behavior",
   "extra": {
     "name": "synchronization",
-    "class": "\\Spryker\\Zed\\Synchronization\\Persistence\\Propel\\Behavior\\SynchronizationBehavior"
+    "class": "\\Spryker\\Zed\\SynchronizationBehavior\\Persistence\\Propel\\Behavior\\SynchronizationBehavior"
   }
 }
