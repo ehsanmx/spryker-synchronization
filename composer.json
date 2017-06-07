@@ -1,10 +1,23 @@
 {
-  "name": "ehsanmx/spryker-synchronization",
-  "description": "Project",
-  "license": "MIT",
+  "name": "spryker/synchronization-behavior",
+  "autoload": {
+    "psr-0": {
+      "Spryker": "src/"
+    }
+  },
+  "description": "TaxProductConnector bundle",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
   "type": "propel-behavior",
   "extra": {
     "name": "synchronization",
-    "class": "\\Spryker\\Zed\\SynchronizationBehavior\\Persistence\\Propel\\Behavior\\SynchronizationBehavior"
+    "class": "\\Spryker\\Zed\\SynchronizationBehavior\\Persistence\\Propel\\Behavior\\SynchronizationBehavior",
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
   }
 }
