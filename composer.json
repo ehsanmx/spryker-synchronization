@@ -1,5 +1,5 @@
 {
-  "name": "spryker/synchronization-behavior",
+  "name": "ehsanmx/spryker-synchronization",
   "autoload": {
     "psr-0": {
       "Spryker": "src/"
